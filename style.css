@@ -67,7 +67,18 @@ button:nth-child(2):hover{
 #mensagens{
     font-size: 30px;
     position: absolute;
-    bottom: 600px;
+    top: -100px;
+    height: max-content;
+    width: max-content;
+}
+
+#mensagens h1{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 #titulo{

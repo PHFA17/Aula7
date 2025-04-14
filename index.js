@@ -19,6 +19,9 @@ function comecarNovoJogo() {
 }
 
 function verifPalpite() {
+    mensagemGameOver.innerHTML = ""
+    mensagemPerdeu.innerHTML = ""
+    mensagemGanhou.innerHTML = ""
     let palpite = Number(document.getElementById("inputPalpite").value)
     if(palpite === numeroAleatorio){
         saldo = saldo * 2
